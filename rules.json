@@ -1,0 +1,486 @@
+{
+  "id": "outdoor_9screen_750_v1",
+  "name": "9屏自适应框模板 V1.1",
+  "master_width": 750,
+  "master_height": 8224,
+  "screen_bounds": [
+    [
+      "D01",
+      0,
+      900
+    ],
+    [
+      "D02",
+      900,
+      1685
+    ],
+    [
+      "D03",
+      1685,
+      2635
+    ],
+    [
+      "D04",
+      2635,
+      3475
+    ],
+    [
+      "D05",
+      3475,
+      4635
+    ],
+    [
+      "D06",
+      4635,
+      5360
+    ],
+    [
+      "D07",
+      5360,
+      6300
+    ],
+    [
+      "D08",
+      6300,
+      7480
+    ],
+    [
+      "D09",
+      7480,
+      8224
+    ]
+  ],
+  "screens": {
+    "D01": {
+      "expected_assets": 1,
+      "slots": [
+        {
+          "name": "主场景",
+          "x": 40,
+          "y": 322,
+          "w": 670,
+          "h": 466,
+          "base_h": 466,
+          "zoom": 1.06,
+          "focus_x": 0.5,
+          "focus_y": 0.58,
+          "radius": 16,
+          "border": "solid",
+          "border_color": "#8fb8a5",
+          "variable_height": true,
+          "flow_cut_y": 788,
+          "auto_adapt": true,
+          "adaptive_visible_fraction": 0.72,
+          "adaptive_max_growth": 1.5
+        }
+      ]
+    },
+    "D02": {
+      "expected_assets": 9,
+      "slots": [
+        {
+          "name": "出风口1",
+          "x": 40,
+          "y": 1045,
+          "w": 211,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        },
+        {
+          "name": "出风口2",
+          "x": 269,
+          "y": 1045,
+          "w": 212,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        },
+        {
+          "name": "出风口3",
+          "x": 497,
+          "y": 1045,
+          "w": 211,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        },
+        {
+          "name": "出风口4",
+          "x": 40,
+          "y": 1226,
+          "w": 211,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        },
+        {
+          "name": "出风口5",
+          "x": 269,
+          "y": 1226,
+          "w": 210,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        },
+        {
+          "name": "出风口6",
+          "x": 499,
+          "y": 1226,
+          "w": 209,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        },
+        {
+          "name": "出风口7",
+          "x": 42,
+          "y": 1407,
+          "w": 209,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        },
+        {
+          "name": "出风口8",
+          "x": 271,
+          "y": 1407,
+          "w": 208,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        },
+        {
+          "name": "出风口9",
+          "x": 499,
+          "y": 1407,
+          "w": 209,
+          "h": 163,
+          "zoom": 1.09,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "radius": 14,
+          "border": "none"
+        }
+      ],
+      "overlay": "orange_checks_from_master"
+    },
+    "D03": {
+      "expected_assets": 4,
+      "slots": [
+        {
+          "name": "痛点1",
+          "x": 40,
+          "y": 1890,
+          "w": 326,
+          "h": 210,
+          "zoom": 1.03,
+          "focus_x": 0.5,
+          "focus_y": 0.46,
+          "radius": 16,
+          "shape": "top_round"
+        },
+        {
+          "name": "痛点2",
+          "x": 384,
+          "y": 1890,
+          "w": 326,
+          "h": 210,
+          "zoom": 1.03,
+          "focus_x": 0.5,
+          "focus_y": 0.46,
+          "radius": 16,
+          "shape": "top_round"
+        },
+        {
+          "name": "痛点3",
+          "x": 40,
+          "y": 2234,
+          "w": 326,
+          "h": 210,
+          "zoom": 1.03,
+          "focus_x": 0.5,
+          "focus_y": 0.47,
+          "radius": 16,
+          "shape": "top_round"
+        },
+        {
+          "name": "痛点4",
+          "x": 384,
+          "y": 2234,
+          "w": 326,
+          "h": 210,
+          "zoom": 1.03,
+          "focus_x": 0.5,
+          "focus_y": 0.46,
+          "radius": 16,
+          "shape": "top_round"
+        }
+      ]
+    },
+    "D04": {
+      "expected_assets": 1,
+      "slots": [
+        {
+          "name": "主结构场景",
+          "x": 42,
+          "y": 2838,
+          "w": 666,
+          "h": 456,
+          "base_h": 456,
+          "zoom": 1.08,
+          "focus_x": 0.52,
+          "focus_y": 0.66,
+          "radius": 16,
+          "border": "solid",
+          "border_color": "#8fb8a5",
+          "variable_height": true,
+          "flow_cut_y": 3294,
+          "auto_adapt": true,
+          "adaptive_visible_fraction": 0.72,
+          "adaptive_max_growth": 1.5
+        }
+      ]
+    },
+    "D05": {
+      "expected_assets": 5,
+      "slots": [
+        {
+          "name": "主图",
+          "x": 42,
+          "y": 3623,
+          "w": 666,
+          "h": 336,
+          "zoom": 1.12,
+          "focus_x": 0.55,
+          "focus_y": 0.68,
+          "radius": 16,
+          "border": "solid"
+        },
+        {
+          "name": "安装图1",
+          "x": 40,
+          "y": 4047,
+          "w": 327,
+          "h": 165,
+          "zoom": 1.08,
+          "focus_x": 0.5,
+          "focus_y": 0.48,
+          "radius": 14,
+          "shape": "bottom_round"
+        },
+        {
+          "name": "安装图2",
+          "x": 383,
+          "y": 4047,
+          "w": 327,
+          "h": 165,
+          "zoom": 1.08,
+          "focus_x": 0.5,
+          "focus_y": 0.48,
+          "radius": 14,
+          "shape": "bottom_round"
+        },
+        {
+          "name": "安装图3",
+          "x": 40,
+          "y": 4290,
+          "w": 327,
+          "h": 165,
+          "zoom": 1.08,
+          "focus_x": 0.5,
+          "focus_y": 0.48,
+          "radius": 14,
+          "shape": "bottom_round"
+        },
+        {
+          "name": "安装图4",
+          "x": 383,
+          "y": 4290,
+          "w": 327,
+          "h": 165,
+          "zoom": 1.08,
+          "focus_x": 0.5,
+          "focus_y": 0.48,
+          "radius": 14,
+          "shape": "bottom_round"
+        }
+      ]
+    },
+    "D06": {
+      "expected_assets": 2,
+      "slots": [
+        {
+          "name": "我们家的",
+          "x": 40,
+          "y": 4836,
+          "w": 326,
+          "h": 230,
+          "zoom": 1.05,
+          "focus_x": 0.52,
+          "focus_y": 0.45,
+          "radius": 14,
+          "shape": "bottom_round"
+        },
+        {
+          "name": "别人家的",
+          "x": 384,
+          "y": 4836,
+          "w": 326,
+          "h": 230,
+          "zoom": 1.05,
+          "focus_x": 0.46,
+          "focus_y": 0.42,
+          "radius": 14,
+          "shape": "bottom_round"
+        }
+      ]
+    },
+    "D07": {
+      "expected_assets": 1,
+      "slots": [
+        {
+          "name": "远距离场景",
+          "x": 42,
+          "y": 5661,
+          "w": 666,
+          "h": 396,
+          "zoom": 1.02,
+          "focus_x": 0.5,
+          "focus_y": 0.52,
+          "radius": 16,
+          "border": "solid",
+          "base_h": 396,
+          "auto_adapt": true,
+          "adaptive_visible_fraction": 0.72,
+          "adaptive_max_growth": 1.5,
+          "variable_height": true,
+          "flow_cut_y": 6057
+        }
+      ]
+    },
+    "D08": {
+      "expected_assets": 1,
+      "mode": "screen_composite",
+      "destination_slots": [
+        [
+          42,
+          6542,
+          666,
+          356
+        ],
+        [
+          40,
+          6916,
+          327,
+          210
+        ],
+        [
+          383,
+          6916,
+          327,
+          210
+        ],
+        [
+          40,
+          7142,
+          327,
+          210
+        ],
+        [
+          383,
+          7142,
+          327,
+          210
+        ]
+      ],
+      "source_crops": [
+        [
+          29,
+          280,
+          721,
+          585
+        ],
+        [
+          29,
+          670,
+          366,
+          1058
+        ],
+        [
+          385,
+          670,
+          721,
+          1058
+        ],
+        [
+          30,
+          1145,
+          366,
+          1530
+        ],
+        [
+          385,
+          1145,
+          720,
+          1530
+        ]
+      ],
+      "preserve_orange_labels": true
+    },
+    "D09": {
+      "expected_assets": 1,
+      "mode": "screen_composite",
+      "hero_source_crop": [
+        115,
+        320,
+        750,
+        675
+      ],
+      "hero_dest": [
+        42,
+        7601,
+        666,
+        356
+      ],
+      "power_source_crop": [
+        30,
+        1145,
+        490,
+        1425
+      ],
+      "power_dest": [
+        42,
+        7979,
+        323,
+        206
+      ],
+      "preserve_green_labels": true
+    }
+  },
+  "_rules_version": 1
+}
